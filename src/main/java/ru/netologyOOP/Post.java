@@ -6,6 +6,6 @@ public class Post {
     public String patronymic;
     public String phone;
     public String surname;
-    boolean subscription = true;
+    public boolean subscription;
     public FormDate birthday;
 }
