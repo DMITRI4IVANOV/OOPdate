@@ -14,11 +14,11 @@ public class Main {
 //        для поля фамилия
         post.surname = "Иванов";
 //        для поля согласие на рассылки
-        post.subscription = String.valueOf(true);
+        post.subscription = true;
 //        для поля дата рождения
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "6";
-        post.birthday.year = "1999";
+        post.birthday.day = 13;
+        post.birthday.month = 6;
+        post.birthday.year = 1999;
     }
 }
